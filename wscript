@@ -4,4 +4,4 @@ def use_module(bld):
     bld.module(
         source=sources,
         includes='src',
-        version='0.0.0')
+        version='2.4.3')
