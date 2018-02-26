@@ -2,4 +2,6 @@
 
 MODULE_XCC_FLAGS = $(XCC_FLAGS) -Os
 
+SOURCE_DIRS = src
+
 VERSION = 2.4.3
