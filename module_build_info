@@ -1,0 +1,8 @@
+
+
+MODULE_XCC_FLAGS = $(XCC_FLAGS) -Os
+
+INCLUDE_DIRS = src
+SOURCE_DIRS = src
+
+VERSION = 2.4.3

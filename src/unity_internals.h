@@ -531,7 +531,7 @@ void UnityAssertNumbersWithin(const UNITY_UINT delta,
 
 void UnityFail(const char* UNSAFE message, const UNITY_LINE_TYPE line);
 
-void UnityIgnore(const char* message, const UNITY_LINE_TYPE line);
+void UnityIgnore(const char* UNSAFE message, const UNITY_LINE_TYPE line);
 
 #ifndef UNITY_EXCLUDE_FLOAT
 void UnityAssertFloatsWithin(const UNITY_FLOAT delta,
